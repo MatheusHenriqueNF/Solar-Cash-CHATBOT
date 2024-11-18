@@ -1,0 +1,61 @@
+@media (min-width: 340px) and (max-width: 599px) {
+    #explicacao1, #explicacao2, #explicacao3, #explicacao4{
+        height: 550px;
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    #explicacao2{
+        height: 350px;
+        margin-bottom: 60px;
+    }
+
+    #explicacao3{
+        height: 550px;
+        margin-bottom: 60px;
+        padding-top: 0px;
+    }
+
+    .conteudo-texto{
+        margin-bottom: 40px;
+    }
+
+    #explicacao3 img{
+        height: 350px;
+    }
+
+    #btn-baixar{
+        display: none;
+    }
+
+    #explicacao4{
+        height: 2000px;
+        flex-direction: column;
+    }
+
+    .aplicativo-texto{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .aplicativo-texto p{
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .aplicativo-img{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aplicativo-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}

@@ -1,0 +1,52 @@
+@media (min-width: 1200px){
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 4%;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    a{
+        text-decoration: none;
+        color: #2D0070;
+        
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 48px;
+        color: #2D0070;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #mobile_menu, #btn-menu{
+        display: none;
+    }
+
+    #logo{
+        width: 300px;
+        height: 80px;
+    }
+
+    #logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #fale-conosco{
+        width: 110px;
+        height: 25px;
+        background-color: #FDBA22;
+        border-radius: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

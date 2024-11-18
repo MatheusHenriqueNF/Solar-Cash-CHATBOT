@@ -1,0 +1,32 @@
+@media (min-width: 600px) and (max-width: 767px){
+
+    #beneficio1, #beneficio2, #beneficio3, #beneficio4{
+        height: 400px;
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    #beneficio2{
+        height: 300px;
+        padding-top: 0px;
+    }
+
+    #beneficio3{
+        height: 300px;
+        padding-top: 20px;
+        align-items: flex-start;
+    }
+
+    #beneficio4{
+        height: 600px;
+        padding-top: 0px;
+    }
+
+    #beneficio4 img{
+        width: 250px;
+        height: auto;
+        margin-left: 100px;
+    }
+
+}

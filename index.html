@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <!-- JQUERY PARA FAZER O BOTÃO DE MENU MOBILE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <!-- css versão desktop (min-width = 1200px) -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/desktop/header.css">
+    <link rel="stylesheet" href="css/desktop/estilo.css">
+    <link rel="stylesheet" href="css/desktop/telaIndex.css">
+
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/laptop/header.css">
+    <link rel="stylesheet" href="css/laptop/estilo.css">
+    <link rel="stylesheet" href="css/laptop/telaIndex.css">
+
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+     <link rel="stylesheet" href="css/tablet/estilo.css">
+     <link rel="stylesheet" href="css/tablet/header.css">
+     <link rel="stylesheet" href="css/tablet/telaIndex.css">
+
+     <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+     <link rel="stylesheet" href="css/phone/estilo.css">
+     <link rel="stylesheet" href="css/phone/header.css">
+     <link rel="stylesheet" href="css/phone/telaIndex.css">
+
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/smallphone/estilo.css">
+    <link rel="stylesheet" href="css/smallphone/header.css">
+    <link rel="stylesheet" href="css/smallphone/telaIndex.css">
+
+    <title>Solar Cash</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <picture>
+                    <source srcset="img/logo.png" media="(min-width: 1200px)" />
+                    <source srcset="img/logo.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/logo.png" media="(min-width: 768px) and (max-width: 991px)" />
+                    <source srcset="img/logo.png" media="(min-width: 600px) and (max-width: 767px)" />
+                    <source srcset="img/logo.png" media="(min-width: 340px) and (max-width: 599px)" />
+                    <img src="" alt="logo Solar Cash">
+                </picture>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html#beneficio1"><li class="item">Benefícios</li></a>
+                <a href="aplicativo.html"><li class="item">Como Funciona</li></a>
+                <a href="aplicativo.html#explicacao4"><li class="item">Aplicativo</li></a>
+                <a href="fale_conosco.html"><div id="fale-conosco"><li class="item">Fale Conosco</li></div></a>
+            </ul>
+
+            <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+    </header>
+    <div id="mobile_menu">
+        <ul id="mobile_nav_lista">
+            <a href="index.html#beneficio1" class="nav-item">
+                <li>Benefícios</li>
+            </a>
+            <a href="aplicativo.html" class="nav-item">
+                <li>Como Funciona</li>
+            </a>
+            <a href="aplicativo.html#explicacao4
+            " class="nav-item">
+                <li>Aplicativo</li>
+            </a>
+            <a href="fale_conosco.html" class="nav-item">
+                <li>Fale Conosco</li>
+            </a>
+        </ul>
+    </div>
+
+    <div id="wrapper">
+        <main>
+            <section id="carousel">
+                
+                <picture>
+                    <source srcset="img/carousel1.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/carousel1_1199.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/carousel1_991.jpg" media="(min-width: 768px) and (max-width: 991px)" />
+                    <source srcset="img/carousel1_767.jpg" media="(min-width: 600px) and (max-width: 767px)" />
+                    <source srcset="img/carousel1_599.jpg" media="(min-width: 340px) and (max-width: 599px)" />
+                    <img src="" alt="carousel 1 de abertura a sessão" title="carousel 1 de abertura a sessão">
+                </picture>
+
+                <div class="texto-carousel">
+                    <h1>
+                        Utilize energia limpa e <span>ganhe cupons</span>
+                    </h1>
+                </div>
+    
+            </section>
+
+            <section id="beneficio1">
+
+                <div class="conteudo-img">
+                    <picture>
+
+                        <source srcset="img/beneficio1.jpg" media="(min-width: 1200px)" />
+                        <source srcset="img/beneficio1.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <source srcset="img/beneficio1.jpg" media="(min-width: 768px) and (max-width: 991px)" />
+                        <source srcset="img/beneficio1.jpg" media="(min-width: 600px) and (max-width: 767px)" />
+                        <source srcset="img/beneficio1.jpg" media="(min-width: 340px) and (max-width: 599px)" />
+                        <img src="" alt="benefício 1" title="beneficio 1">
+
+                    </picture>
+                </div>
+                <div class="conteudo-texto">
+                    <h2>Abrace o sol, abrace o futuro!</h2>
+                    <p>Com nosso aplicativo, você não apenas monitora sua própria energia limpa, mas também ganha recompensas por cada watt produzido e usado. A cada raio de sol que incide em seus painéis, você acumula pontos que podem ser trocadas por diversos benefícios. <br>
+                    Mas o impacto vai além da sua conta de luz! Ao escolher a energia solar, você contribui para um planeta mais verde, reduzindo drasticamente sua pegada de carbono. Junte-se a nós e faça parte da revolução solar!</p>
+                </div>
+
+            </section>
+
+            <section id="beneficio2">
+
+                <div class="conteudo-texto esquerda-texto">
+                    <h2>Ganhe cupons</h2>
+                    <p><span>Acumule SolarCoins e economize!</span> Use seus pontos para ganhar descontos em milhares de lojas, aplicativos e até pagar suas contas.</p>
+                </div>
+                <div class="conteudo-img direita-img">
+                    <picture>
+
+                        <source srcset="img/beneficio2.png" media="(min-width: 1200px)" />
+                        <source srcset="img/beneficio2.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <source srcset="img/beneficio2.png" media="(min-width: 768px) and (max-width: 991px)" />
+                        <source srcset="img/beneficio2.png" media="(min-width: 600px) and (max-width: 767px)" />
+                        <source srcset="img/beneficio2.png" media="(min-width: 340px) and (max-width: 599px)" />
+                        <img src="" alt="benefício 2" title="benefício 2">
+
+                    </picture>
+                </div>
+            
+            </section>
+
+            <section id="beneficio3">
+
+                <div class="conteudo-img">
+                    <picture>
+
+                        <source srcset="img/beneficio3.jpg" media="(min-width: 1200px)" />
+                        <source srcset="img/beneficio3.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <source srcset="img/beneficio3.jpg" media="(min-width: 768px) and (max-width: 991px)" />
+                        <source srcset="img/beneficio3.jpg" media="(min-width: 600px) and (max-width: 767px)" />
+                        <source srcset="img/beneficio3.jpg" media="(min-width: 340px) and (max-width: 599px)" />
+                        <img src="" alt="benefício 3" title="benefício 3">
+
+                    </picture>
+                </div>
+                <div class="conteudo-texto">
+                    <h2>O que é Solarcoin?</h2>
+                    <p>Ao utilizar energia solar, você não apenas cuida do planeta, mas também acumula <span>SolarCoins!</span> É como uma moeda virtual que você ganha a cada quilowatt-hora de energia limpa que consumir. Use seus SolarCoins para trocar por <span>cupons de descontos</span> em produtos e serviços de empresas parceiras. Quanto mais energia solar você usar, mais SolarCoins você terá e mais benefícios poderá aproveitar!</p>
+                </div>
+
+            </section>
+        
+            <section id="beneficio4">
+
+                <div class="conteudo-texto esquerda-texto">
+                    <h2>Controle os seus gastos</h2>
+                    <p>Sabendo quanta energia o seu ambiente está utilizando ajuda a encontrar oportunidades de economia. Defina metas e ataque pontos críticos, a fim de reduzir o desperdício e os gastos.</p>
+                </div>
+                <div class="conteudo-img direita-img">
+                    <picture>
+
+                        <source srcset="img/beneficio4.png" media="(min-width: 1200px)" />
+                        <source srcset="img/beneficio4.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <source srcset="img/beneficio4.png" media="(min-width: 768px) and (max-width: 991px)" />
+                        <source srcset="img/beneficio4.png" media="(min-width: 600px) and (max-width: 767px)" />
+                        <source srcset="img/beneficio4.png" media="(min-width: 340px) and (max-width: 599px)" />
+                        <img src="" alt="benefício 1">
+
+                    </picture>
+                </div>
+            
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+              <p>&copy; 2023 Todos os direitos reservados.</p>
+              <ul class="time">
+                <li>
+                  <span>Cleyton Enrike de Oliveira - rm 560485</span>
+                  <a href="" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <span>Matheus Henrique Nascimento de Freitas - rm 560442</span>
+                  <a href="https://github.com/MatheusHenriqueNF" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/matheus-henrique-nascimento-de-freitas-2660342a8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <span>Pedro Henrique de Souza Sena - rm 561178</span>
+                  <a href="https://github.com/pedrooliveira" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://linkedin.com/in/pedrooliveira" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+    </div>
+   
+    <script src="js/scriptmenu.js"></script>
+</body>
+
+</html>

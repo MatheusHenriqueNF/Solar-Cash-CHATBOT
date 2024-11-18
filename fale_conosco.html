@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- JQUERY PARA FAZER O BOTÃO DE MENU MOBILE -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <!-- css versão desktop (min-width = 1200px) -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/desktop/header.css">
+    <link rel="stylesheet" href="css/desktop/estilo.css">
+    <link rel="stylesheet" href="css/desktop/telaEquipe.css"> <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/laptop/header.css">
+    <link rel="stylesheet" href="css/laptop/estilo.css">
+    <link rel="stylesheet" href="css/laptop/telaEquipe.css">
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/tablet/estilo.css">
+    <link rel="stylesheet" href="css/tablet/header.css">
+    <link rel="stylesheet" href="css/tablet/telaEquipe.css">
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/phone/estilo.css">
+    <link rel="stylesheet" href="css/phone/header.css">
+    <link rel="stylesheet" href="css/phone/telaEquipe.css">
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/smallphone/estilo.css">
+    <link rel="stylesheet" href="css/smallphone/header.css">
+    <link rel="stylesheet" href="css/smallphone/telaEquipe.css">
+
+    <title>Baixe o aplicativo</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <picture>
+                    <source srcset="img/logo.png" media="(min-width: 1200px)" />
+                    <source srcset="img/logo.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/logo.png" media="(min-width: 768px) and (max-width: 991px)" />
+                    <source srcset="img/logo.png" media="(min-width: 600px) and (max-width: 767px)" />
+                    <source srcset="img/logo.png" media="(min-width: 340px) and (max-width: 599px)" />
+                    <img src="" alt="logo Solar Cash">
+                </picture>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html#beneficio1"><li class="item">Benefícios</li></a>
+                <a href="aplicativo.html"><li class="item">Como Funciona</li></a>
+                <a href="aplicativo.html#explicacao4"><li class="item">Aplicativo</li></a>
+                <a href="fale_conosco.html"><div id="fale-conosco"><li class="item">Fale Conosco</li></div></a>
+            </ul>
+
+            <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+    </header>
+    <div id="mobile_menu">
+        <ul id="mobile_nav_lista">
+            <a href="index.html#beneficio1" class="nav-item">
+                <li>Benefícios</li>
+            </a>
+            <a href="aplicativo.html" class="nav-item">
+                <li>Como Funciona</li>
+            </a>
+            <a href="aplicativo.html#explicacao4
+            " class="nav-item">
+                <li>Aplicativo</li>
+            </a>
+            <a href="fale_conosco.html" class="nav-item">
+                <li>Fale Conosco</li>
+            </a>
+        </ul>
+    </div>
+
+    <div id="wrapper">
+        <main>
+
+            <section id="carousel">
+                
+                <picture>
+                    <source srcset="img/carousel3.png" media="(min-width: 1200px)" />
+                    <source srcset="img/carousel3_1199.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/carousel3_991.png" media="(min-width: 768px) and (max-width: 991px)" />
+                    <source srcset="img/carousel3_767.png" media="(min-width: 600px) and (max-width: 767px)" />
+                    <source srcset="img/carousel3_599.png" media="(min-width: 340px) and (max-width: 599px)" />
+                    <img src="" alt="carousel 1 de abertura a sessão" title="carousel 1 de abertura a sessão">
+                </picture>
+
+                <div class="texto-carousel">
+                    <h1>
+                        Desenvolvedores da <span>Solar Cash</span>
+                    </h1>
+                </div>
+    
+            </section>
+
+            <div class="container-equipe">
+                <h2>Nossa Equipe</h2>
+                <div class="membro">
+                   
+                   <picture>
+                    <source srcset="img/membro1.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/membro1.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/membro1.jpg" media="(min-width: 768px) and (max-width: 991px)" />
+                    <source srcset="img/membro1.jpg" media="(min-width: 600px) and (max-width: 767px)" />
+                    <source srcset="img/membro1.jpg" media="(min-width: 340px) and (max-width: 599px)" />
+                    <img src="" alt="foto do membro 1" tilte="foto do membro 1" class="foto-membro">
+                   </picture>
+                   
+                    
+                    <div class="info-membro">
+                        <h2>Cleyton Enrike de Oliveira</h2>
+                        <p>RM: 560485</p>
+                        <div class="links-sociais">
+                            <a href="https://github.com/joaosilva" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/joaosilva" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="membro">
+                    <picture>
+                        <source srcset="img/membro2.jpeg" media="(min-width: 1200px)" />
+                        <source srcset="img/membro2.jpeg" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <source srcset="img/membro2.jpeg" media="(min-width: 768px) and (max-width: 991px)" />
+                        <source srcset="img/membro2.jpeg" media="(min-width: 600px) and (max-width: 767px)" />
+                        <source srcset="img/membro2.jpeg" media="(min-width: 340px) and (max-width: 599px)" />
+                        <img src="" alt="foto do membro 2" tilte="foto do membro 1" class="foto-membro">
+                       </picture>
+                    <div class="info-membro">
+                        <h2>Matheus Henrique Nascimento de Freitas</h2>
+                        <p>RM: 560442</p>
+                        <div class="links-sociais">
+                            <a href="https://github.com/mariarodrigues" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/mariarodrigues" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="membro">
+                    <picture>
+                        <source srcset="img/membro3.jpg" media="(min-width: 1200px)" />
+                        <source srcset="img/membro3.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <source srcset="img/membro3.jpg" media="(min-width: 768px) and (max-width: 991px)" />
+                        <source srcset="img/membro3.jpg" media="(min-width: 600px) and (max-width: 767px)" />
+                        <source srcset="img/membro3.jpg" media="(min-width: 340px) and (max-width: 599px)" />
+                        <img src="" alt="foto do membro 3" title="foto do membro 3" class="foto-membro">
+                       </picture>
+                    <div class="info-membro">
+                        <h2>Pedro Henrique de Souza Sena </h2>
+                        <p>RM: 561178</p>
+                        <div class="links-sociais">
+                            <a href="https://github.com/pedrooliveira" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/pedrooliveira" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="frm-contato">
+                <h2>Formulário de Contato</h2>
+                <form id="formulario-contato">
+                    <div class="grupo-formulario">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <span class="mensagem-erro" id="erro-nome"></span>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="mensagem-erro" id="erro-email"></span>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" name="descricao" rows="4" required></textarea>
+                        <span class="mensagem-erro" id="erro-descricao"></span>
+                    </div>
+                    <button type="submit" disabled>Enviar</button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container">
+              <p>&copy; 2023 Todos os direitos reservados.</p>
+              <ul class="time">
+                <li>
+                  <span>Cleyton Enrike de Oliveira - rm 560485</span>
+                  <a href="" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <span>Matheus Henrique Nascimento de Freitas - rm 560442</span>
+                  <a href="https://github.com/MatheusHenriqueNF" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/matheus-henrique-nascimento-de-freitas-2660342a8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <span>Pedro Henrique de Souza Sena - rm 561178</span>
+                  <a href="https://github.com/pedrooliveira" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://linkedin.com/in/pedrooliveira" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+    </div>
+    <script src="js/validadar.js"></script>
+    <script src="js/scriptmenu.js"></script>
+</body>
+</html>

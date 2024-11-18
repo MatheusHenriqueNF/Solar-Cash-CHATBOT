@@ -1,0 +1,66 @@
+@media (min-width: 600px) and (max-width: 767px) {
+    
+    #explicacao1, #explicacao2, #explicacao3, #explicacao4{
+        height: 380px;
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    #explicacao2{
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    #explicacao3{
+        height: 360px;
+        margin-bottom: 60px;
+        padding-top: 0px;
+    }
+
+    #explicacao3 img{
+        height: 300px;
+    }
+
+    #btn-baixar{
+        width: 250px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FDBA22;
+        border: 1px solid #FDBA22;
+        margin-left: 10%;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+
+    #explicacao4{
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .aplicativo-texto{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .aplicativo-texto p{
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .aplicativo-img{
+        width: 100%;
+        height: 450px;
+    }
+
+    .aplicativo-img img{
+        width: 32%;
+        height: 100%;
+    }
+    
+}

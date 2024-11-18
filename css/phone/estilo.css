@@ -1,0 +1,148 @@
+@media (min-width: 600px) and (max-width: 767px){
+    #wrapper{
+        width: 100%;
+        height: 100%;
+    }
+    section{
+        width: 100%;
+        display: flex;
+        padding: 8px 4%;
+    }
+
+    span{
+        color:  #FDBA22;
+        font-weight: 500;
+    }
+
+    h2{
+        font-size: 28px;
+        color: #2D0070;
+    }
+
+    p{
+        font-size: 16px;
+        text-align: justify;
+        font-weight: 300;
+    }
+
+    #carousel{
+        height: calc(100vh - 100px);
+        position: relative;
+        padding: 0;
+        margin-bottom: 60px;
+    }
+
+    #carousel img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(50%); 
+        transition: filter 0.3s;
+        position: absolute;
+        
+    }
+
+    .texto-carousel{
+        width: 320px;
+        height: auto;
+        top: 40%;
+        left: 60px;
+        position: absolute;
+    }
+
+    .texto-carousel h1{
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+
+    .texto-carousel span{
+        font-weight: bold; 
+    }
+
+    .conteudo-img{
+        width: 40%;
+        height: 300px;
+        padding-top: 0px;
+    }
+
+    .conteudo-texto{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-img img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .direita-img{
+        width: 50%;
+        height: auto;
+        padding-left: 0px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .direita-img img{
+        width: 250px;
+        height: 150px;
+        margin-left: 0px;
+    }
+
+    .esquerda-texto{
+        width: 55%;
+        margin-right: 45px;
+    }
+
+    footer {
+        background-color: #f3f3f3;
+        padding: 20px;
+        text-align: center;
+        clear: both;
+        margin-top: 100px;
+      }
+      
+      .container {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      
+      .time {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .time li {
+        margin-right: 20px;
+      }
+      
+      .time span {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      
+      .time a {
+        color: #337ab7;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+      
+      .time a:hover {
+        color: #23527c;
+      }
+      
+      .fab {
+        font-size: 18px;
+        margin-right: 10px;
+      }
+}
